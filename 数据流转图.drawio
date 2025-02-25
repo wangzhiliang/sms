@@ -10,7 +10,7 @@
         <mxCell id="9" value="&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font&gt;Web群发处理程序&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;font&gt;sms-router-web&lt;/font&gt;&lt;/p&gt;" style="verticalAlign=middle;align=center;overflow=fill;fontSize=27;fontFamily=Helvetica;html=1;rounded=1;fontStyle=1;strokeWidth=3;fillColor=#E6FFCC" parent="1" vertex="1">
           <mxGeometry x="421.25" y="665" width="257.5" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="14" value="Web" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFFFCC;fontSize=31;" parent="1" vertex="1">
+        <mxCell id="14" value="Web程序" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFFFCC;fontSize=31;" parent="1" vertex="1">
           <mxGeometry x="210" y="670" width="140" height="100" as="geometry" />
         </mxCell>
         <mxCell id="73" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=5;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontStyle=0" parent="1" source="9" target="5" edge="1">
@@ -43,7 +43,7 @@
         <mxCell id="Go8G2ca-5ozSkLpdjjPo-121" value="kafka.topic.mtpush" style="text;spacingTop=-5;align=center;fontSize=24;labelBackgroundColor=none;textShadow=1;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="1557.5" y="505" width="85" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Go8G2ca-5ozSkLpdjjPo-122" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+        <mxCell id="Go8G2ca-5ozSkLpdjjPo-122" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=25;" parent="1" vertex="1">
           <mxGeometry x="30" y="690" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Go8G2ca-5ozSkLpdjjPo-123" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="Go8G2ca-5ozSkLpdjjPo-122" target="14" edge="1">
@@ -79,6 +79,21 @@
         <mxCell id="oXmWFC9EIgw9CtEUog3M-79" value="&lt;font style=&quot;font-size: 34px;&quot;&gt;入库&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oXmWFC9EIgw9CtEUog3M-78">
           <mxGeometry x="-0.3404" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oXmWFC9EIgw9CtEUog3M-80" value="&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font&gt;API服务端程序&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;font&gt;sms-http-api&lt;/font&gt;&lt;/p&gt;" style="verticalAlign=middle;align=center;overflow=fill;fontSize=27;fontFamily=Helvetica;html=1;rounded=1;fontStyle=1;strokeWidth=3;fillColor=#E6FFCC" vertex="1" parent="1">
+          <mxGeometry x="431.25" y="380" width="257.5" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="oXmWFC9EIgw9CtEUog3M-81" value="&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font&gt;Web群发处理程序&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;font&gt;sms-router-web&lt;/font&gt;&lt;/p&gt;" style="verticalAlign=middle;align=center;overflow=fill;fontSize=27;fontFamily=Helvetica;html=1;rounded=1;fontStyle=1;strokeWidth=3;fillColor=#E6FFCC" vertex="1" parent="1">
+          <mxGeometry x="421.25" y="150" width="257.5" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="oXmWFC9EIgw9CtEUog3M-82" value="http发送" style="ellipse;whiteSpace=wrap;html=1;fontSize=25;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="30" y="395" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oXmWFC9EIgw9CtEUog3M-83" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=5;" edge="1" parent="1" source="oXmWFC9EIgw9CtEUog3M-82" target="oXmWFC9EIgw9CtEUog3M-80">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="460" as="sourcePoint" />
+            <mxPoint x="220" y="410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
